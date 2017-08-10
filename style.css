@@ -47,6 +47,7 @@ body {
   box-shadow:-3px 2px 0 rgba(0,0,0,0.1);
   transform:rotate(30deg);
   transition:transform 0.3s;
+  display:flex;
 }
 
 .coffee:after{ /*assa*/
@@ -76,7 +77,7 @@ body {
 }
 #code {
   font-size: 27px;
-  margin-top: 4px;
+  margin: auto;
   display: block;
   color: white;
 }
