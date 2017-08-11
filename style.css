@@ -76,10 +76,14 @@ body {
   transform:rotate(15deg);
 }
 #code {
-  font-size: 27px;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-code{
   margin: auto;
-  display: block;
-  color: white;
 }
 #slash {
   font-size: 20px;
